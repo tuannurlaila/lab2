@@ -5,18 +5,19 @@
 
     <h1>แบบสอบถาม</h1>
     <form action="show.php" method="get" style="margin-left: 80px;">
-    ชื่อ:<input type="text" name="name"><br>
+    ชื่อ-สกุล :
+    <input type="text" name="name"><br>
        
-        อายุ:
+        อายุ :
         <input type="number" name="num" style="width: 40px;"><br>
         
-        สถานะ:
+        สถานะ :
         <select name="status">
             <option value="single">โสด</option>
             <option value="marry">สมรส</option>
         </select><br>
 
-        เพศ:
+        เพศ :
         <select name="gender">
             <option value="male">ชาย</option>
             <option value="female">หญิง</option>
